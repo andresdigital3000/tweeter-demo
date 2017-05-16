@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TweetComponent } from './tweet/tweet.component';
+import { LikeComponent } from './like/like.component';
+import { TweetsComponent } from './tweets/tweets.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TweetComponent,
+    LikeComponent,
+    TweetsComponent
   ],
   imports: [
     BrowserModule,
